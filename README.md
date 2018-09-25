@@ -14,7 +14,7 @@ directed. You will however have to point the `req_file` variable to point to
 your requirements table.
 
 ```bash
-$ jupyter-notebook calculations_template.ipynb
+$ jupyter-notebook calculation_template.ipynb
 ```
 
 The other option is to use `papermill` to execute the notebook as a script. In
@@ -22,7 +22,7 @@ this case, the entire notebook is run and a copy of the completed version is
 saved for record. In this case you can pass in the path to the requirements
 file via the command line.
 ```bash
-$ papermill calculations_template.ipynb yag.ipynb -p req_file examples/yag.csv 
+$ papermill calculation_template.ipynb yag.ipynb -p req_file examples/yag.csv 
 ```
 ## Installation
 The `requirements.txt` file contains all the necessary Python packages for
